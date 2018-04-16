@@ -23,6 +23,7 @@ var createNewTask = function (task) {
 
     //ADD PROPERTIES
     checkBox.type = "checkbox";
+    checkBox.title = "Task completed";
 
     //ADD ITEMS TO THE LI
     listItem.appendChild(checkBox);
